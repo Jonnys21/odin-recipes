@@ -1,24 +1,18 @@
 *{
 	box-sizing: border-box; 
 }
-::-webkit-scrollbar {
-  width: 1rem;
+
+/*----------------------------------Etiquetas-------------------------------*/
+
 }
- 
-::-webkit-scrollbar-track {
-  background-color: blue;
-}
- 
-::-webkit-scrollbar-thumb {
-  background-color: yellow;
-  outline: 0.1rem solid slategrey;
+body {
+	font-size: 15px;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: pink;
+
+.cabecera .navegar{
+	display: flex;
 }
-/*----------------------------------Etiquetas-------------------------------*/
-html
-{
-	font-size: 1.09vh;
+.cabecera .navegar a{
+	text-decoration: none;
 }
